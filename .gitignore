@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CPython stuff
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes Virtuais (MUITO IMPORTANTE)
+venv/
+.venv/
+env/
+ENV/
+
+# Bancos de Dados (Não envie bancos locais para o GitHub)
+*.sqlite3
+*.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Variáveis de Ambiente (Segurança de API e senhas)
+.env
+.flaskenv
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
