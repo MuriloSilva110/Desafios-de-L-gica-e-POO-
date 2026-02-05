@@ -5,29 +5,35 @@ Este repositório é o meu "laboratório" de desenvolvimento. Aqui reúno divers
 Treinar a escrita de código limpo, aplicação de padrões de projeto e o domínio da documentação oficial do Python para resolver problemas de lógica e estrutura de dados.
 
 📂 Desafios Disponíveis
-1. Simulador de Elevador (elevador_poo.py)
-Exercício focado em Programação Orientada a Objetos e controle de estado.
+1. Sistema de Gestão de Elevadores (elevador_poo.py)
+Um simulador robusto que evoluiu de uma lógica simples para um sistema de gestão predial complexo.
 
-Conceitos: Encapsulamento de atributos privados, Decorators (@property), e validação de regras de negócio (capacidade máxima e limite de andares).
+Herança e Polimorfismo: Criação da classe especializada ElevadorDeCarga que herda de Elevador, sobrescrevendo métodos para lidar com peso (kg) em vez de contagem de pessoas.
 
-Destaque: Implementação de lógica para evitar estados impossíveis (ex: descer quando já está no térreo).
+Composição: Implementação da classe Predio, que gerencia uma frota de diferentes tipos de elevadores.
+
+Encapsulamento e Proteção: Uso rigoroso de atributos privados e Decorators (@property).
+
+Interface via CLI: Menu interativo utilizando match/case para operar múltiplos elevadores em tempo real.
+
+Documentação Profissional: Inclusão de Docstrings em todas as classes e métodos, seguindo as boas práticas do mercado.
 
 2. (Próximo Desafio...)
-(Espaço reservado para o próximo arquivo que você subir!)
+(Espaço reservado para o próximo arquivo!)
 
 🛠️ Tecnologias e Ferramentas
-Linguagem: Python 3.x
+Linguagem: Python 3.10+ (utilizando Modern Patterns como match/case).
 
-Conceitos: POO, Manipulação de Estruturas de Dados, Algoritmos de busca/validação.
+Conceitos: POO Avançada (Herança, Composição), Docstrings, Gestão de Estados e CLI (Command Line Interface).
 
 Ambiente: VS Code e Git.
 
 🔗 Outros Projetos Principais
 Para projetos de maior escala e aplicações completas, confira meus repositórios dedicados:
 
-[Gerenciador de Estoque Full Stack](https://github.com/MuriloSilva110/projeto_estoque_web) - Aplicação Web com Flask, SQL e Deploy.
+Gerenciador de Estoque Full Stack – Aplicação Web com Flask, SQL e Deploy.
 
-[Automação de Testes com Selenium](https://github.com/MuriloSilva110/stock-manager-selenium-automation) - Scripts de teste E2E com mimetismo humano.
+Automação de Testes com Selenium – Scripts de teste E2E com mimetismo humano e esperas dinâmicas.
 
 👤 Autor
 Murilo Silva Estudante de ADS na Unisa | Conclusão em 12/2026
