@@ -31,9 +31,9 @@ Ambiente: VS Code e Git.
 🔗 Outros Projetos Principais
 Para projetos de maior escala e aplicações completas, confira meus repositórios dedicados:
 
-Gerenciador de Estoque Full Stack – Aplicação Web com Flask, SQL e Deploy.
+[Gerenciador de Estoque Full Stack](https://github.com/MuriloSilva110/projeto_estoque_web)
 
-Automação de Testes com Selenium – Scripts de teste E2E com mimetismo humano e esperas dinâmicas.
+[Automação de Testes com Selenium](https://github.com/MuriloSilva110/stock-manager-selenium-automation)
 
 👤 Autor
 Murilo Silva Estudante de ADS na Unisa | Conclusão em 12/2026
